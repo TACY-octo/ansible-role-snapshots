@@ -50,4 +50,4 @@ python -m pip install pyvmomi
 - cyril.tavian@acensi.fr
 
 # Nommage
-Les variables ont en suffix le nom du rôle. ```snapshots_```
+Les variables ont en prefix le nom du rôle. ```snapshots_```
