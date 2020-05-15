@@ -1,0 +1,5 @@
+# defaults/main.yml 
+---
+snapshots_folder: "{{ snapshots_datacenter }}/"
+snapshots_vm: "{{ inventory_hostname }}"
+snapshots_name: "{{ inventory_hostname }}-{{ ansible_date_time.date }}"

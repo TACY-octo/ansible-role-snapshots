@@ -1,0 +1,13 @@
+# tasks/main.yml
+---
+- name: Manage snapshots
+  vmware_guest_snapshot: 
+    hostname: "{{ snapshots_esxi }}"
+    username: "{{ snapshots_user }}"
+    password: "{{ snapshots_password }}"
+    datacenter: "{{ snapshots_datacenter }}"
+    folder: "{{ snapshots_folder }}"
+    name: "{{ snapshots_vm }}"
+    state: "{{ snapshots_stats }}"
+    snapshots_name: "{{ snapshots_name }}"
+  delegate_to: localhost

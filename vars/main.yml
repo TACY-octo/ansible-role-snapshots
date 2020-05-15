@@ -1,0 +1,7 @@
+# vars/main.yml
+---
+snapshots_esxi: ""
+snapshots_user: ""
+snapshots_password: ""
+snapshots_datacenter: ""
+snapshots_stats: present
